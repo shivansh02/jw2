@@ -42,10 +42,10 @@ export default function ProtectedPage() {
           }
         } else {
           const errorText = await response.text();
-          setError(`Failed to fetch protected data: ${errorText}`);
+          setError(`Failed to fetch protected data: ${errorText}. Please login again.`);
         }
       } catch (error) {
-        setError(`Error fetching protected data: ${error instanceof Error ? error.message : String(error)}`);
+        setError(`Error fetching protected data: ${error instanceof Error ? error.message : String(error)}. Please login again.`);
       }
     };
 
