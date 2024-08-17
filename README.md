@@ -1,6 +1,6 @@
 # JW2 - A Lightweight JWT Library that runs on the edge.
 
-JW2 is a type-safe library for encoding, decoding, and validating JSON Web Tokens (JWTs). Unlike the original jsonwebtoken package, JW2 runs supports edge runtime, allowing it to be used in middleware. It achieves this by using Web Crypto API instead of a library like crypto.
+JW2 is a type-safe library for encoding, decoding, and validating JSON Web Tokens (JWTs). Unlike the original jsonwebtoken package, JW2 supports edge runtime, allowing it to be used in middleware. It achieves this by using Web Crypto API instead of a library like crypto.
 
 ## Features
 
